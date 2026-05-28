@@ -184,14 +184,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 22px 28px;
-  width: 180px;
+  padding: 20px 24px;
+  width: 220px;
   border-right: 1px solid var(--border);
 }
 
 .project-logo img {
-  max-height: 72px;
-  max-width: 130px;
+  max-height: 120px;
+  max-width: none;
   width: auto;
   object-fit: contain;
 }
@@ -305,8 +305,8 @@ body {
   }
 
   .project-logo img {
-    max-height: 48px;
-    max-width: 88px;
+    max-height: 80px;
+    max-width: none;
   }
 
   .project-meta {
